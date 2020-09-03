@@ -29,10 +29,10 @@ $ git clone https://github.com/lutilipe/Ecoleta---nlw01.git
  
 ### Configuring the DataBase and Server
 Create a .env file in the root of server folder and add the following variables:
-- DB_USER=<Your database user>
-- DB_PASS=<Your database password>
-- DB_NAME=<Your database name>
-- DB_HOST=<Your host, usually "127.0.0.1">
+- DB_USER=< Your database user >
+- DB_PASS=< Your database password >
+- DB_NAME=< Your database name >
+- DB_HOST= < Your host, usually "127.0.0.1" >
 
 ### :computer: API
 ```bash
