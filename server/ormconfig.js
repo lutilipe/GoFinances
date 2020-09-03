@@ -1,10 +1,12 @@
-{
+require('dotenv').config()
+
+module.exports = {
   "type": "postgres",
-  "host": "localhost",
+  "host":  process.env.DB_HOST,
   "port": 5432,
-  "username": "postgres",
-  "password": "luiz081200",
-  "database": "gostack_desafio06",
+  "username": process.env.DB_USER,
+  "password":  process.env.DB_PASS,
+  "database":  process.env.DB_NAME,
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
