@@ -76,7 +76,7 @@ const Dashboard: React.FC = () => {
           </Card>
           <Card>
             <header>
-              <p>Saídass</p>
+              <p>Saídas</p>
               <img src={outcome} alt="Outcome" />
             </header>
             <h1 data-testid="balance-outcome">{balance.outcome}</h1>
